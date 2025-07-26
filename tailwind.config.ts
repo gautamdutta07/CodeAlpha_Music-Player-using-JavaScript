@@ -24,6 +24,10 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'player-accent': 'hsl(var(--player-accent))',
+				'player-accent-secondary': 'hsl(var(--player-accent-secondary))',
+				'progress-bg': 'hsl(var(--progress-bg))',
+				'volume-bg': 'hsl(var(--volume-bg))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -88,7 +92,17 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'spin-slow': 'spin 8s linear infinite',
+				'pulse-slow': 'pulse 3s ease-in-out infinite',
+				'bounce-gentle': 'bounce 2s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'player-gradient': 'var(--player-gradient)',
+			},
+			boxShadow: {
+				'player': 'var(--player-shadow)',
+				'album': 'var(--album-shadow)',
 			}
 		}
 	},
